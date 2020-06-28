@@ -47,8 +47,6 @@ void turnOFFcb(void)
 
 int main(void)
 {
-  // input signal
-
   // controller initial settings
   onoffcore_set_ON_callback(turnOnCB);
   onoffcore_set_OFF_callback(turnOFFcb);
@@ -57,7 +55,10 @@ int main(void)
   onoffcore_set_hist_down(5);
 
   while(1){
+    // in normal circumstances this function will be called by any interrupt, i.e. ADC reading done
     onoffcore_set_signal(signal);
+    
+    // this task need to be called periodically i.e. 1ms( could be implemented as OS task.
     onoffcore_run();
     signal+=change;
   }
