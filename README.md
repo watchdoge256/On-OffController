@@ -2,28 +2,6 @@
 This is sample implementation of On Off controller(bang bang controller) for microcontrollers Arduino, STM32 etc...
 
 
-
-/**************************************************************
-*                    ^Signal value                            *
-*                    |                                        *
-*                    |                                        *
-*                    |                                        *
-*                    |           X                            *
-*                 +----------------------------------------+  *
-*   hysteresis up ^  |         X   X           X              *
-*                 v  |        X     X         X               *
-*          target +----------------------------------------+  *
-*                 ^  |      X         X     X                 *
-* hysteresis down v  |     X           X   X                  *
-*                 +----------------------------------------+  *
-*                    |   X               X                    *
-*                    |  X                                     *
-*                    | X                                      *
-*                    |X                                       *
-*                    -------------------------------------->  *
-*                                                       time  *
-***************************************************************/
-
 API:
 /*
  * this function sets target value which controller tries to achieve
