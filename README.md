@@ -111,4 +111,4 @@ returns: 0- status success
 ### **onoffcore_run**
   this function runs controller logic, this has to be called periodically(i.e. each 1ms)
   
-//<meta name="google-site-verification" content="5XBeeN_SbOM_9cyVBWXsLmMMOzu49ADToPEScnca9fk" />
+  <meta name="google-site-verification" content="5XBeeN_SbOM_9cyVBWXsLmMMOzu49ADToPEScnca9fk" />
