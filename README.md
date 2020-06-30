@@ -1,5 +1,6 @@
 # OnOffController
 This is sample implementation of On Off controller(bang bang controller) for microcontrollers Arduino, STM32 etc...
+Visit repository at: https://github.com/watchdoge256/On-OffController
 
 Principle of operation
 ===
@@ -110,8 +111,3 @@ returns: 0- status success
   
 ### **onoffcore_run**
   this function runs controller logic, this has to be called periodically(i.e. each 1ms)
-```html
-<head>
-<meta name="google-site-verification" content="5XBeeN_SbOM_9cyVBWXsLmMMOzu49ADToPEScnca9fk" />
-</head>
-```
