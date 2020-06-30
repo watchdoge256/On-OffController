@@ -111,3 +111,6 @@ returns: 0- status success
   
 ### **onoffcore_run**
   this function runs controller logic, this has to be called periodically(i.e. each 1ms)
+  
+  Tags:
+  #DIY, #Arduino, #STM32, #bangbang, #microcontrollers, #C, #library, #onoff
